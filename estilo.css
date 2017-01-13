@@ -1,0 +1,88 @@
+body{
+	font-family:"Arial";
+}
+@font-face{
+	font-family: "Kaushan Script";
+	src:url("fonts/KaushanScript-Regular.otf"),
+		url("fonts/KaushanScript-Regular.vfb"),
+		url("fonts/KaushanScript-Regular-OTF.vfb"),
+		url("fonts/KaushanScript-Regular-TTF.vfb");
+}
+
+#cabecalho{
+	background: #6175f0;
+	font-family: "Kaushan Script";
+	color: white;
+}
+#cabecalho h1{
+	font-size:36px;
+	padding-top:20px;
+	padding-left:34px;
+}
+
+#cabecalho h2{
+	font-size:24px;
+	font-family: "Times New Roman";
+	padding-bottom:13px;
+	padding-left:34px;
+}
+
+#verdade img{
+	float:left;
+	width:310px;
+	margin-right:13px;
+}
+
+#verdade h2{
+	font-size:24px;
+	font-family: "Times New Roman";
+	color:black;
+}
+
+#verdade p{
+	font-family:"Arial";
+	font-size:14px;
+}
+
+.referencia{font-style:italic;}
+
+#hoje{
+	float:right;
+	width:405px;
+	background:#f8cef7;
+	border:1px solid #ff56fb;
+	text-align: center;
+	margin-right:25px;
+	padding-left:35px;
+	padding-right:35px;
+	padding-bottom:30px;
+	padding-top:20px;
+}
+#hoje h2{
+	font-size:30px;
+	font-family:"Times New Roman";
+}
+
+#hoje img{
+	width:112px;
+}
+#musica h2{
+	font-family:"Times New Roman";
+	padding-top:13px;
+}
+#musica p:nth-of-type(2n){
+	margin-left:34px;
+}
+#musica p{
+	white-space:pre-line;
+}
+#musica h2,p{
+	padding-left:12px;
+}
+.destacado{
+	display:block;
+	background:#c4caf3;
+	color:#004a79;
+	width:auto;
+	padding-bottom:10px;
+}
